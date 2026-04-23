@@ -324,6 +324,11 @@
       display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
     }
     .hero-role .divider { width: 5px; height: 5px; border-radius: 50%; background: var(--olive); }
+    .role-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;           /* spacing between the dot and the text within a pair */
+    }
 
     .hero-tagline {
       font-size: 1.12rem;
@@ -938,14 +943,12 @@
             Hyderabad, India
           </span>
 
-          <h1>Sai Priyanka Kanchanapally.</h1>
+          <h1>Sai Priyanka Kanchanapally</h1>
 
           <div class="hero-role">
-            <span>Data &amp; ML Enthusiast</span>
-            <span class="divider"></span>
-            <span>Customer Success</span>
-            <span class="divider"></span>
-            <span>M.Tech &middot; Data Science &amp; ML</span>
+            <span class="role-item">Data &amp; ML Enthusiast</span>
+            <span class="role-item"><span class="divider"></span>Customer Success</span>
+            <span class="role-item"><span class="divider"></span>M.Tech &middot; Data Science &amp; ML</span>
           </div>
 
           <p class="hero-tagline">
